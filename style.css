@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Chivo:wght@300&family=Crete+Round:ital@0;1&family=Delius+Swash+Caps&family=Lora:wght@500&family=Montserrat:wght@300&family=Orbitron&family=Orienta&family=Paprika&family=Quicksand:wght@400;500&family=Slabo+27px&display=swap');
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+body {
+  /* background-color: aqua;3 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbdaf8;
+}
+.main_conatainer {
+  max-width: 400px;
+  background-image: linear-gradient(#bc73b8, #6c6ab6);
+  /* background-color: red; */
+}
+
+.screen {
+  width: 90%;
+  height: 60px;
+  background-color: white;
+  margin-left: 5%;
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: right;
+  font-family: 'Orbitron', sans-serif;
+  /* cursor: disabled; */
+}
+.local_screen0,
+.local_screen1 {
+  /* height: 600px; */
+  /* cursor: none; */
+  height: 30px;
+  width: 30%;
+  margin-top: 3px;
+  text-align: right;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20px;
+}
+.local_screen0 {
+  /* margin: 0px; */
+  margin-left: 5%;
+}
+.local_screen1 {
+  /* margin: 0px; */
+  margin-right: 5%;
+}
+.key_board {
+  width: 80%;
+  /* height: 400px; */
+  /* background-color: blue; */
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.fixed {
+  width: 100%;
+  /* height: 50px; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* background-color: blue; */
+}
+.panel {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  transition: 0.5s;
+  /* background-color: red; */
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* background-color: green; */
+}
+
+.btno {
+  width: 23%;
+  height: 70px;
+  font-size: 20px;
+  background-color: transparent;
+  text-shadow: green;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.btn {
+  width: 20%;
+}
+.up_down {
+  width: 20%;
+
+  margin-left: 40%;
+  border-radius: 4px;
+  height: 10px;
+
+  cursor: pointer;
+}
+.none {
+  margin-top: -150px;
+  z-index: -4;
+  display: none;
+  transition: 1s;
+}
+.clear {
+  width: 100%;
+  font-size: 40px;
+}
+.clr {
+  background-color: #b081c0;
+  background-color: #39bfca;
+}
+.a {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.b {
+  width: 25%;
+}
+@media screen and (max-width: 400px) {
+  .main_conatainer {
+    width: 400px;
+    height: 100vh;
+  }
+}
+/* .s {
+  height: 70px;
+}
+.k {
+  height: 50px;
+} */
