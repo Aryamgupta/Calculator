@@ -14,7 +14,7 @@ body {
   background-color: #dbdaf8;
 }
 .main_conatainer {
-  max-width: 400px;
+  width: 400px;
   background-image: linear-gradient(#bc73b8, #6c6ab6);
   /* background-color: red; */
 }
@@ -96,12 +96,12 @@ body {
   width: 20%;
 }
 .up_down {
-  width: 20%;
+  width: 18%;
 
-  margin-left: 40%;
+  margin-left: 41%;
   border-radius: 4px;
-  height: 10px;
-
+  height: 5px;
+  margin-bottom: 5px;
   cursor: pointer;
 }
 .none {
@@ -126,13 +126,9 @@ body {
 }
 @media screen and (max-width: 980px) {
   .main_conatainer {
+  }
+  #main {
     width: 100%;
-/*     height: 100vh; */
+    height: 100vh;
   }
 }
-/* .s {
-  height: 70px;
-}
-.k {
-  height: 50px;
-} */

@@ -161,7 +161,7 @@ for (let item of button) {
     } // e^x
     else if (item.textContent === 'e^x') {
       buttonText = screen.value !== '' ? Math.exp(screen.value) : Math.exp(x);
-    } else if (item.textContent === 'B') {
+    } else if (item.textContent === '⌫') {
       screen.value = screen.value.slice(0, -1);
     }
     // 16 keys -  0to 9 and / + - () .
